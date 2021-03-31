@@ -1,0 +1,16 @@
+1. create table Buyer ( Buyer_Email varchar(20), Buyer_Name varchar(20), Address varchar(20), Contact_Number integer(10), Buyer_Id integer(9) primary key);
+2. create table Agent( Agent_Name varchar(20), Agent_Contact_Number integer(10), Buyer_Id integer(9) primary key);
+3. create table Owner (Owner_name varchar(20),Owner_Contact_Number integer(10), Owner_Email varchar(30),Owner_Address varchar(30) ,Owner_Id integer(9) primary key);
+4. create table Property (Property_Type varchar(30), Address varchar(30),Staus varchar(30),Year integer(4), Price integer(20), No_Bedroom integer(10), Property_Name varchar(30) , Property_Id integer(9) primary key);
+5. SHOW COLUMNS FROM Buyer;
+6. SHOW COLUMNS FROM Agent;
+7. SHOW COLUMNS FROM Owner;
+8. SHOW COLUMNS FROM Property;
+9. create table Property_Owner ( Property_Id integer(10), Owner_Id integer(10), primary key(Property_Id, Owner_Id), foreign key (Owner_Id) references owner(Owner_Id), foreign key(Property_Id) references property(Property_Id));
+10. create table Property_Agent ( Property_Id integer(10), Agent_Id integer(10), primary key(Property_Id, Agent_Id), foreign key (Agent_Id) references agent(Agent_Id), foreign key(Property_Id) references property(Property_Id));
+11. create table Property_Buyer ( Property_Id integer(10), Buyer_Id integer(10), primary key(Property_Id, Buyer_Id), foreign key (Buyer_Id) references buyer(Buyer_Id), foreign key(Property_Id) references property(Property_Id));
+12. SHOW COLUMNS FROM Property_Owner;
+13. SHOW COLUMNS FROM Property_Agent;
+14. SHOW COLUMNS FROM Property_Buyer;
+
+ 
