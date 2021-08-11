@@ -1,17 +1,12 @@
 # DBMS_Project
-CS241 - Project Description
+# CS241 - Project Description
 <br/>
-\item 1.INSTRUCTIONS
-(1) Read the entire description before you begin your work.
-(2) The specifications given are from end-users, so they may not be precise and complete. State all your assumptions
-in your deliverables.
-2 PROJECT DESCRIPTION
 A DBMS needs to be implemented for a real estate office, that sells houses and apartments within a city. The office
-needs to store a lot of data, specifically:
+needs to store a lot of data, specifically:<br/>
 • agents: An agent is responsible for interacting with buyers and sellers, to show properties to them and facilitate
-sales or giving on rent.
+sales or giving on rent.<br/>
 • details of homes/apartments: The address, selling price, rent, details of the house (example: size: 1500 sq. ft,
-number of bedrooms: 2)
+number of bedrooms: 2)<br/>
 3 DATA GENERATION
 You can see magicbricks.com, 99acres.com, makaan.com etc. for good examples of data.
 4 PROJECT REQUIREMENTS
