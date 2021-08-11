@@ -1,6 +1,7 @@
 # DBMS_Project
 CS241 - Project Description
-1 INSTRUCTIONS
+<br/>
+\item 1.INSTRUCTIONS
 (1) Read the entire description before you begin your work.
 (2) The specifications given are from end-users, so they may not be precise and complete. State all your assumptions
 in your deliverables.
